@@ -111,7 +111,7 @@ public class UserController {
 
         UserDetails userDetails = customUserDetails.loadUserByUsername(username);
 
-        System.out.println("Sig in in user details"+ userDetails);
+        System.out.println("Sign in in user details"+ userDetails);
 
         if(userDetails == null) {
             System.out.println("Sign in details - null" + userDetails);
